@@ -38,7 +38,7 @@ Primeiros comandos com Git
 - criar um repositório remoto no github;
 - git remote add origin (dar um nome para o servidor remoto) + https://github.com/ktineu/ktineu.github.io.git ( caminho ) - exemplo;
 - git remote -v => para garantir que o endereço está correto;
-- git push origin master => exemplo para empurrar as alterações salvas no git para o github;
+- git push origin main => exemplo para empurrar as alterações salvas no git para o github;
 - git pull => trazer as informações salvas no github;
 - git clone => para clonar um repositório remoto no github e fazer as alterações necessárias bem como realizar todo o processo de versionamento.
 
@@ -49,7 +49,7 @@ Resolvendo conflitos
 Quando não conseguir dar um push para o  github volta no git e coloca git pull para trazer as informações do github que está dando conflito e resolver na máquina local.
 Só depois dar um push novamente. Assim , o git entenderá e fará uma merge....
 Vai no editor de texto exclui o <<<<<<head e ====== apaga, e deixa somente o conteudo correto.
-Depois de resolver o conflito , volta no git e  commita o arquivo ( git commit -m "resolve conflitos") antes de empurrá-lo novamente ( 'git push origin master').
+Depois de resolver o conflito , volta no git e  commita o arquivo ( git commit -m "resolve conflitos") antes de empurrá-lo novamente ( 'git push origin main').
 
 
 *********************************************************************************************************************************************************************
