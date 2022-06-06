@@ -69,7 +69,7 @@ Depois de resolver o conflito , volta no git e  commita o arquivo ( git commit -
 
 ********************************************************************************************************************************************************************
 
-markdown - teclas
+Markdown 
 
 : chi traz uma figura - p.ex. galinha
 * * negrito
