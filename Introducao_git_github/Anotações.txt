@@ -16,6 +16,9 @@ identificador de 40 dígitos.
 
 commit -> trees -> blobs
 
+WORKING DIRECTORY   STAGING AREA  LOCAL REPOSITORY
+REMOTE REPOSITORY
+
 - SISTEMA DISTRIBUÍDO
 
 O git é um sistema distribuido e seguro.
@@ -37,6 +40,17 @@ Primeiros comandos com Git
 - git push origin master => exemplo para empurrar as alterações salvas no git para o github;
 - git pull => para trazer as informações salvas no github;
 
+*******************************************************************************************************************************************************************
+
+Resolvendo conflitos
+
+Quando não conseguir dar um push para o  github volta no git e coloca git pull para trazer as informações do github que está dando conflito e resolver na máquina local.
+Só depois dar um push novamente. Assim , o git entenderá e fará uma merge....
+Vai no editor de texto exclui o <<<<<<head e ====== apaga, e deixa somente o conteudo correto.
+Depois de resolver o conflito , volta no git e  commita o arquivo ( git commit -m "resolve conflitos") antes de empurrá-lo novamente ( 'git push origin master').
+
+
+*********************************************************************************************************************************************************************
 
 *a palavra "untracked" - significa não rastreado ou monitorado
 * git config user.email => para ver o email que foi cadastrado
@@ -52,4 +66,14 @@ Primeiros comandos com Git
 ** Para desfazer algo que já foi comitado => faz o commit , vai no git log copia a hash e depois o comando git revert + hash 
 *** git tag -a v0.1 -m "Lançando a primeira versão(Beta) da aplicação de cursos"
 *** git push origin v0.1 => para empurrar a tag para o github por exemplo
+
+********************************************************************************************************************************************************************
+
+markdown - teclas
+
+: chi traz uma figura - p.ex. galinha
+* * negrito
+_ _ italico
+- e espaço cria uma lista
+
 
