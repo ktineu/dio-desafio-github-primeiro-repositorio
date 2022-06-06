@@ -23,7 +23,7 @@ REMOTE REPOSITORY
 
 O git é um sistema distribuido e seguro.
 
-Primeiros comandos com Git
+Principais comandos com Git
 
 - cria uma pasta;
 - ir na pasta através do comando cd c: por exemplo; 
@@ -66,7 +66,7 @@ Depois de resolver o conflito , volta no git e  commita o arquivo ( git commit -
 **Quando uma alteração é adicionada e quer desfazer -> git reset head nome do arquivo e depois volta a fazer git checkout -- nome arquivo
 ** Para desfazer algo que já foi comitado => faz o commit , vai no git log copia a hash e depois o comando git revert + hash 
 *** git tag -a v0.1 -m "Lançando a primeira versão(Beta) da aplicação de cursos"
-*** git push origin v0.1 => para empurrar a tag para o github por exemplo
+*** git push origin v0.1 => para empurrar a tag para o github, por exemplo
 
 ********************************************************************************************************************************************************************
 
