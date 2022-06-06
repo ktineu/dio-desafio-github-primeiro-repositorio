@@ -32,7 +32,7 @@ Primeiros comandos com Git
 - git add . => para adicionar as alterações... // ;
 - git commit -m => -m significa mensagem, ou seja, "salvando a alteração ou mensagem';
 - git log => para verificar todos os commits;
-- - git remote add origin (dar um novo para o servidor) + https://github.com/ktineu/ktineu.github.io.git ( caminho ) -exemplo;
+- git remote add origin (dar um nome para o servidor) + https://github.com/ktineu/ktineu.github.io.git ( caminho ) -exemplo;
 - git remote -v => para garantir que o endereço está correto;
 - git push origin master => exemplo para empurrar as alterações feitas no github;
 - git pull => para trazer as informações salvas no github;
