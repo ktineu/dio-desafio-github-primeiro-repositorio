@@ -7,7 +7,7 @@ Entendendo o que é Git e sua importância
 
 Linus Torvalds desenvolveu o Linux de forma colaborativa.
 Git é um software de versionamento de código.
-Github =>empresa da Microsoft.
+Github => é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.
 
 - SHA1 - SECURE HASH ALGORITHM é um conjunto de funções hash criptográficas projetadas
 pela NSA (Agência de Segurança Nacional dos EUA). A encriptação gera conjunto de characteres
