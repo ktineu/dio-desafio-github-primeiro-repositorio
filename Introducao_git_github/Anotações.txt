@@ -62,8 +62,8 @@ Depois de resolver o conflito , volta no git e  commita o arquivo ( git commit -
 * git log -p => para ver detalhes do commit
 * arquivo .gitignore => vai ignorar um arquivo do git. Dentro dele vc coloca o arquivo que quer ignorar
 * mkdir => para criar uma nova pasta 
-**Para desfazer alguma informação antes de adicionar -> git checkout -- index.html
-**Quando uma alteração é adicionada e quer desfazer -> git reset head index.html e depois volta a fazer git checkout -- nome arquivo
+**Para desfazer alguma informação antes de adicionar -> git checkout -- nome do arquivo
+**Quando uma alteração é adicionada e quer desfazer -> git reset head nome do arquivo e depois volta a fazer git checkout -- nome arquivo
 ** Para desfazer algo que já foi comitado => faz o commit , vai no git log copia a hash e depois o comando git revert + hash 
 *** git tag -a v0.1 -m "Lançando a primeira versão(Beta) da aplicação de cursos"
 *** git push origin v0.1 => para empurrar a tag para o github por exemplo
