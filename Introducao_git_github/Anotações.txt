@@ -29,16 +29,18 @@ Primeiros comandos com Git
 - ir na pasta através do comando cd c: por exemplo; 
 - ls => para listar diretórios ou pastas;
 - git init para inicializar um repositório na pasta criada;
-- git status =>para verificar o status , se houve alterações para adicionar;
 - git config --global user.name "Seu nome aqui";
 - git config --global user.email "seu@email.aqui";
+- git status =>para verificar o status , se houve alterações para adicionar;
 - git add . => para adicionar as alterações... // ;
 - git commit -m => -m significa mensagem, ou seja, "salvando a alteração ou mensagem';
 - git log => para verificar todos os commits;
-- git remote add origin (dar um nome para o servidor) + https://github.com/ktineu/ktineu.github.io.git ( caminho ) -exemplo;
+- criar um repositório remoto no github;
+- git remote add origin (dar um nome para o servidor remoto) + https://github.com/ktineu/ktineu.github.io.git ( caminho ) - exemplo;
 - git remote -v => para garantir que o endereço está correto;
 - git push origin master => exemplo para empurrar as alterações salvas no git para o github;
-- git pull => para trazer as informações salvas no github;
+- git pull => trazer as informações salvas no github para o git;
+- git clone => para clonar um repositório remoto no github e fazer as alterações necessárias bem como realizar todo o processo de versionamento.
 
 *******************************************************************************************************************************************************************
 
@@ -60,7 +62,6 @@ Depois de resolver o conflito , volta no git e  commita o arquivo ( git commit -
 * git log -p => para ver detalhes do commit
 * arquivo .gitignore => vai ignorar um arquivo do git. Dentro dele vc coloca o arquivo que quer ignorar
 * mkdir => para criar uma nova pasta 
-* git clone => para clonar um repositório remoto no desktop 
 **Para desfazer alguma informação antes de adicionar -> git checkout -- index.html
 **Quando uma alteração é adicionada e quer desfazer -> git reset head index.html e depois volta a fazer git checkout -- nome arquivo
 ** Para desfazer algo que já foi comitado => faz o commit , vai no git log copia a hash e depois o comando git revert + hash 
