@@ -1,2 +1,55 @@
 Link para download do git: https://git-scm.com/downloads.
+
 O Git Bash é um terminal estendido para otimizar o uso do Git.
+
+Introdução ao Git e ao Github
+Entendendo o que é Git e sua importância
+
+Linus Torvalds desenvolveu o Linux de forma colaborativa.
+Git é um software de versionamento de código.
+Github =>empresa da Microsoft.
+
+- SHA1 - SECURE HASH ALGORITHM é um conjunto de funções hash criptográficas projetadas
+pela NSA (Agência de Segurança Nacional dos EUA). A encriptação gera conjunto de characteres
+identificador de 40 dígitos.
+3 tipos básicos de objetos do git: blobs, trees, commits.
+
+commit -> trees -> blobs
+
+- SISTEMA DISTRIBUÍDO
+
+O git é um sistema distribuido e seguro.
+
+Primeiros comandos com Git
+
+- cria uma pasta;
+- ir na pasta através do comando cd c: por exemplo; 
+- ls => para listar diretórios ou pastas;
+- git init para inicializar um repositório na pasta criada;
+- git status =>para verificar o status , se houve alterações para adicionar;
+- git config --global user.name "Seu nome aqui";
+- git config --global user.email "seu@email.aqui";
+- git add . => para adicionar as alterações... // ;
+- git commit -m => -m significa mensagem, ou seja, "salvando a alteração ou mensagem';
+- git log => para verificar todos os commits;
+- - git remote add origin (dar um novo para o servidor) + https://github.com/ktineu/ktineu.github.io.git ( caminho ) -exemplo;
+- git remote -v => para garantir que o endereço está correto;
+- git push origin master => exemplo para empurrar as alterações feitas no github;
+- git pull => para trazer as informações salvas no github;
+
+
+*a palavra "untracked" - significa não rastreado ou monitorado
+* git config user.email => para ver o email que foi cadastrado
+* git status => depois de comitar para ver como ficou o status
+* git diff --staged => para ver o que vc alterou antes de comitar
+* git log --oneline => para verificar tudo o que foi comitado em linhas
+* git log -p => para ver detalhes do commit
+* arquivo .gitignore => vai ignorar um arquivo do git. Dentro dele vc coloca o arquivo que quer ignorar
+* mkdir => para criar uma nova pasta 
+* git clone => para clonar um repositório remoto no desktop 
+**Para desfazer alguma informação antes de adicionar -> git checkout -- index.html
+**Quando uma alteração é adicionada e quer desfazer -> git reset head index.html e depois volta a fazer git checkout -- nome arquivo
+** Para desfazer algo que já foi comitado => faz o commit , vai no git log copia a hash e depois o comando git revert + hash 
+*** git tag -a v0.1 -m "Lançando a primeira versão(Beta) da aplicação de cursos"
+*** git push origin v0.1 => para empurrar a tag para o github por exemplo
+
