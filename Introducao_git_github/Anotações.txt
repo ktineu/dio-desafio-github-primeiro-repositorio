@@ -5,7 +5,7 @@ O Git Bash é um terminal estendido para otimizar o uso do Git.
 Introdução ao Git e ao Github
 Entendendo o que é Git e sua importância
 
-//Fonte: material de apoio Dio
+//Fontes: material de apoio Dio e cursos online
 
 Git é um software de versionamento de código.
 Github => é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.
