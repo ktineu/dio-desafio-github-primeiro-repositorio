@@ -85,11 +85,11 @@ Markdown
 
 * Criando titulos
 
-#h1 - titulo principal
-##h2 - titulo secundario
-###h3 ...
+# h1 - titulo principal
+## h2 - titulo secundario
+### h3 ...
 
-#h1: chi traz uma figura - p.ex. galinha
+# h1: chi traz uma figura - p.ex. galinha
 
 * Enfase no textos
 
@@ -101,7 +101,7 @@ combinando os dois: _um**texto**combinado_
 
 * Listas com markdown
 
-listas não ordenadas - *Item
+listas não ordenadas - * Item
 listas ordenadas - 1.Item
 
 - espaço => cria uma lista
