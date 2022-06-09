@@ -89,9 +89,9 @@ Markdown
 ## h2 - titulo secundario
 ### h3 ...
 
-# h1: chi traz uma figura - p.ex. galinha
+# h1:chi traz uma figura - p.ex. galinha
 
-* Enfase no textos
+* Ênfase no textos
 
 negrito - **texto**  out __texto__
 
@@ -102,9 +102,9 @@ combinando os dois: _um**texto**combinado_
 * Listas com markdown
 
 listas não ordenadas - * Item
-listas ordenadas - 1.Item
+listas ordenadas - 1. Item
 
-- espaço => cria uma lista
+- (espaço) => cria uma lista
 
 * Links em Markdown
 
